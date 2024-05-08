@@ -8,6 +8,33 @@
         <version>2.7.17</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <packaging>pom</packaging>
+    <modules>
+        <module>
+            dynamic-views
+        </module>
+        <module>
+            rest-services
+        </module>
+        <module>
+            web-scopes
+        </module>
+        <module>
+            payment-service
+        </module>
+        <module>
+            consuming-rest-endpoints
+        </module>
+        <module>
+            jdbc-template
+        </module>
+        <module>
+            transactions
+        </module>
+        <module>
+            spring-data
+        </module>
+    </modules>
     <groupId>com.example</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>

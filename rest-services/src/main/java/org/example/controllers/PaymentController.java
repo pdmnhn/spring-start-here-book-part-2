@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PaymentController {
     private final PaymentService paymentService;
-    private static Logger logger = Logger.getLogger(PaymentController.class.getName());
+    private static final Logger logger = Logger.getLogger(PaymentController.class.getName());
 
     @Autowired
     public PaymentController(PaymentService paymentService) {
